@@ -10,7 +10,10 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("New Year");
+            bool chack = false;
+            Console.WriteLine("bool default: " + chack);
+
+            Console.ReadKey();
         }
     }
 }
