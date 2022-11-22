@@ -13,6 +13,18 @@ namespace ConsoleApp1
             bool chack = false;
             Console.WriteLine("bool default: " + chack);
 
+            Console.WriteLine();
+
+            double d = 1;
+            double c = 3;
+            Console.WriteLine(d/c);
+
+            Console.WriteLine();
+
+            decimal e = 1;
+            decimal f = 3;
+            Console.WriteLine(e/f); 
+
             Console.ReadKey();
         }
     }
